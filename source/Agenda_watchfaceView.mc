@@ -42,14 +42,14 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         dc.clear();
         
         //draw shadow color first
-        var myStats = System.getSystemStats();
+        /*var myStats = System.getSystemStats();
         if(myStats.battery > 36){
         	dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);}
         if((myStats.battery <= 36) && (myStats.battery > 12)){
         	dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);}
         if(myStats.battery <= 12){
         	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);}
-        dc.drawText(centerx+5,centery+5,Graphics.FONT_NUMBER_THAI_HOT ,timeString,Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+        dc.drawText(centerx+5,centery+5,Graphics.FONT_NUMBER_THAI_HOT ,timeString,Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);*/
         
         //draw main clock time
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -105,9 +105,16 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         var point2 = [tip[0]-(14*Math.cos(Math.toRadians(hour_angle-45))),tip[1]+(14*Math.sin(Math.toRadians(hour_angle-45)))];
         
         var pointlist = [tip, point1, point2];
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        var myStats = System.getSystemStats();
+        if(myStats.battery > 36){
+        	dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);}
+        if((myStats.battery <= 36) && (myStats.battery > 12)){
+        	dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);}
+        if(myStats.battery <= 12){
+        	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);}
         dc.fillPolygon(pointlist);
         
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         if(app.getProperty("bg_phase") == NO_ACCESS_TOKEN){
         	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, "visit:google.com/device", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
 	    	dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"CODE:"+ app.getProperty("user_code"), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
@@ -118,15 +125,16 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
 	        if(event_array.size() != 0){
 		        //init index variable outside loop so we know where it stopped
 		        var upcoming_event_index = 0;
-		        var upcoming_event_delay = "";
-		        for(upcoming_event_index = 0; upcoming_event_index < event_array.size(); upcoming_event_index++){
+		        var upcoming_event_delay = 36000;
+		        for(var i = 0; i < event_array.size(); i++){
 		        	//convert RFC3339 timestamp to UNIX UTC
-		        	var upcoming_event_moment = RFC3339toMoment(eventlist[event_array[upcoming_event_index]]["start"]);
+		        	var upcoming_event_moment = RFC3339toMoment(eventlist[event_array[i]]["start"]);
 		        	
-		        	upcoming_event_delay = upcoming_event_moment.compare(now);
+		        	var event_delay = upcoming_event_moment.compare(now);
 		        	
-		        	if(upcoming_event_delay > 0){
-		        		break;
+		        	if((event_delay > 0) && (event_delay < upcoming_event_delay)){
+		        		upcoming_event_index = i;
+		        		upcoming_event_delay = event_delay;
 		        	}
 		        }
 		        

@@ -1,7 +1,7 @@
 (:background)
 class bgsd extends Toybox.System.ServiceDelegate {
 	
-	var pendingrequests = 0;
+	var calRequestIndex = 0;
 	var eventlist = {};
 	
 	function initialize() {
@@ -82,6 +82,15 @@ class bgsd extends Toybox.System.ServiceDelegate {
     		}
     		case GET_EVENTS: {
     			//request parameters are the same for each calendar
+		    	//get calendar dict from object store
+		    	var calendarlist = app.getProperty("calendarlist");
+		    	
+		    	//get lists of calendars
+	    		var calendar_array = calendarlist.keys();
+	    		calRequestIndex = 0;
+    		
+		    	request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[calRequestIndex]+"/events";
+		    	
 		    	request_params = {
 		    		"access_token" => "",
 		    		"timeMin" => "",
@@ -121,27 +130,8 @@ class bgsd extends Toybox.System.ServiceDelegate {
     		}*/
     	}
     	
-    	if(app.getProperty("bg_phase") != GET_EVENTS){
-	    	//make web request
-	    	Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));
-	    }else{
-	    	//get calendar dict from object store
-	    	var calendarlist = app.getProperty("calendarlist");
-	    	
-	    	//get lists of calendars
-    		var calendar_array = calendarlist.keys();
-    		
-    		//request for every calendar
-	    	for(var c = 0; c < calendarlist.size(); c++){
-	    	
-	    		var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[c]+"/events";
-	    		
-	    		//make actual web request
-	    		Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));
-	    		
-	    		pendingrequests++;
-	    	}
-	    }
+    	//make web request
+	    Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));	    
     }
     
     function onReceiveWebRequest(responseCode, data) {
@@ -165,6 +155,9 @@ class bgsd extends Toybox.System.ServiceDelegate {
     				//event list may be too long to return so we need to parse here
 		    		var calendarlist = app.getProperty("calendarlist"); 
 		    		
+		    		//get lists of calendars
+	    			var calendar_array = calendarlist.keys();
+	    			
 		    		//parse events out			
 					for(var i = 0; i < data["items"].size(); i++){
 						//filters out all day events
@@ -180,7 +173,15 @@ class bgsd extends Toybox.System.ServiceDelegate {
 						}
 					}
 					
-					pendingrequests--;
+					//increment index
+					calRequestIndex++;
+					
+					//if we've reached the end of the calendar list, exit bg process, otherwise keep requesting
+		    		if(calRequestIndex < calendar_array.size()){
+		    			requestNextEventlist(calendar_array[calRequestIndex]);
+		    		}else{
+		    			Background.exit(eventlist);
+		    		}
     				break;
     			}
     			/*case GET_TEMP: {
@@ -199,12 +200,31 @@ class bgsd extends Toybox.System.ServiceDelegate {
     	}else{
     		//send responseCode back
     		Background.exit(data);
-    	}
-    	 	
-    	if(pendingrequests == 0){
-    		//send eventlist back
-    		Background.exit(eventlist);
-    	}
+    	}    	
+    }
+    
+    function requestNextEventlist(calendarid){
+    	var app = Application.getApp();
     	
+    	var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendarid+"/events";
+    	
+    	var request_params = {
+    		"access_token" => "",
+    		"timeMin" => "",
+    		"timeMax" => ""
+    	};   	
+    	request_params["access_token"] = app.getProperty("access_token");
+		request_params["timeMin"] = app.getProperty("timeMin");
+		request_params["timeMax"] = app.getProperty("timeMax");			
+						
+		//request options
+		var options = {
+	    	:method => Communications.HTTP_REQUEST_METHOD_GET,
+	    	:headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED},
+	    	:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON,
+	    };
+	    
+	    //make web request
+	    Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));	
     }
 }

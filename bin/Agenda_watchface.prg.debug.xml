@@ -28,184 +28,192 @@
 <entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="75" pc="268436194" symbol="onTemporalEvent"/>
 <entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="76" pc="268436218" symbol="onTemporalEvent"/>
 <entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="81" pc="268436306" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="85" pc="268436309" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="90" pc="268436356" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="91" pc="268436380" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="92" pc="268436404" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="95" pc="268436428" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="100" pc="268436516" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="124" pc="268436519" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="126" pc="268436547" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="129" pc="268436590" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="132" pc="268436608" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="135" pc="268436621" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="137" pc="268436645" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="140" pc="268436664" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="142" pc="268436704" symbol="onTemporalEvent"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="147" pc="268436737" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="148" pc="268436741" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="149" pc="268436752" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="151" pc="268436771" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="195" pc="268436841" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="155" pc="268436864" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="156" pc="268436872" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="157" pc="268436902" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="158" pc="268436930" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="161" pc="268436992" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="162" pc="268437012" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="166" pc="268437015" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="169" pc="268437033" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="171" pc="268437063" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="172" pc="268437097" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="183" pc="268437235" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="184" pc="268437254" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="201" pc="268437263" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="204" pc="268437283" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="206" pc="268437300" symbol="onReceiveWebRequest"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="7" lineNum="20" pc="268437330" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="7" lineNum="21" pc="268437334" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="7" lineNum="23" pc="268437352" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="7" lineNum="25" pc="268437369" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="7" lineNum="26" pc="268437390" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="8" lineNum="31" pc="268437416" symbol="onStart"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="9" lineNum="35" pc="268437421" symbol="onStop"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="10" lineNum="39" pc="268437426" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="10" lineNum="41" pc="268437430" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="10" lineNum="44" pc="268437479" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="11" lineNum="48" pc="268437517" symbol="getServiceDelegate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="11" lineNum="50" pc="268437521" symbol="getServiceDelegate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="53" pc="268437559" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="54" pc="268437563" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="55" pc="268437580" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="56" pc="268437600" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="58" pc="268437619" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="60" pc="268437678" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="64" pc="268437709" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="66" pc="268437848" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="68" pc="268437873" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="69" pc="268437898" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="70" pc="268437923" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="74" pc="268437926" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="75" pc="268437951" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="76" pc="268437976" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="77" pc="268438001" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="78" pc="268438020" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="80" pc="268438048" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="81" pc="268438073" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="85" pc="268438076" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="86" pc="268438095" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="90" pc="268438129" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="93" pc="268438162" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="96" pc="268438217" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="108" pc="268438413" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="111" pc="268438432" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="114" pc="268438465" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="117" pc="268438520" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="129" pc="268438716" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="131" pc="268438735" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="132" pc="268438760" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="135" pc="268438763" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="136" pc="268438773" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="138" pc="268438799" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="140" pc="268438824" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="150" pc="268438827" symbol="onBackgroundData"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="14" lineNum="10" pc="268438913" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="14" lineNum="11" pc="268438917" symbol="initialize"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="15" lineNum="15" pc="268438936" symbol="onLayout"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="16" lineNum="22" pc="268438941" symbol="onShow"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="26" pc="268438946" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="27" pc="268438950" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="28" pc="268438969" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="29" pc="268438988" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="32" pc="268439007" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="33" pc="268439024" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="34" pc="268439034" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="35" pc="268439044" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="36" pc="268439055" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="38" pc="268439065" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="41" pc="268439133" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="42" pc="268439169" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="45" pc="268439181" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="46" pc="268439198" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="47" pc="268439215" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="48" pc="268439254" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="49" pc="268439291" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="50" pc="268439330" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="51" pc="268439347" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="52" pc="268439386" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="55" pc="268439453" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="56" pc="268439489" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="59" pc="268439544" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="60" pc="268439588" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="61" pc="268439632" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="62" pc="268439696" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="66" pc="268439757" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="67" pc="268439778" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="69" pc="268439871" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="72" pc="268439955" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="75" pc="268439972" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="77" pc="268439991" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="79" pc="268440015" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="80" pc="268440068" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="81" pc="268440118" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="82" pc="268440168" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="85" pc="268440229" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="86" pc="268440279" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="87" pc="268440329" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="90" pc="268440390" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="91" pc="268440404" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="92" pc="268440429" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="94" pc="268440487" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="97" pc="268440513" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="102" pc="268440566" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="103" pc="268440639" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="104" pc="268440771" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="105" pc="268440909" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="107" pc="268441047" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="108" pc="268441085" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="109" pc="268441121" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="111" pc="268441135" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="112" pc="268441163" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="113" pc="268441227" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="116" pc="268441311" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="118" pc="268441328" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="120" pc="268441348" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="121" pc="268441355" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="122" pc="268441362" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="124" pc="268441386" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="126" pc="268441419" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="128" pc="268441434" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="129" pc="268441445" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="134" pc="268441464" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="136" pc="268441481" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="137" pc="268441564" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="146" pc="268441650" symbol="onHide"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="19" lineNum="150" pc="268441655" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="20" lineNum="154" pc="268441660" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="157" pc="268441665" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="160" pc="268441669" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="161" pc="268441701" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="162" pc="268441733" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="163" pc="268441765" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="164" pc="268441797" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="165" pc="268441829" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="166" pc="268441861" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="168" pc="268441893" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="177" pc="268441961" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="181" pc="268441980" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="182" pc="268441984" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="183" pc="268442022" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="185" pc="268442072" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="188" pc="268442119" symbol="RFC3339toMoment"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="192" pc="268442123" symbol="getLocation"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="193" pc="268442127" symbol="getLocation"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="194" pc="268442146" symbol="getLocation"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="195" pc="268442165" symbol="getLocation"/>
-<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="196" pc="268442190" symbol="getLocation"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="86" pc="268436309" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="89" pc="268436327" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="90" pc="268436340" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="92" pc="268436353" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="94" pc="268436378" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="99" pc="268436425" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="100" pc="268436449" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="101" pc="268436473" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="104" pc="268436497" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="109" pc="268436585" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="4" lineNum="134" pc="268436588" symbol="onTemporalEvent"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="137" pc="268436629" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="138" pc="268436633" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="139" pc="268436644" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="141" pc="268436663" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="196" pc="268436733" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="145" pc="268436756" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="146" pc="268436764" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="147" pc="268436794" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="148" pc="268436822" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="151" pc="268436884" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="152" pc="268436904" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="156" pc="268436907" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="159" pc="268436925" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="162" pc="268436938" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="164" pc="268436968" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="165" pc="268437002" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="177" pc="268437140" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="180" pc="268437159" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="181" pc="268437182" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="183" pc="268437208" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="185" pc="268437234" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="5" lineNum="202" pc="268437243" symbol="onReceiveWebRequest"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="206" pc="268437264" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="207" pc="268437268" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="209" pc="268437287" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="211" pc="268437303" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="216" pc="268437350" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="217" pc="268437374" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="218" pc="268437398" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="221" pc="268437422" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\bgsd.mc" id="6" lineNum="228" pc="268437510" symbol="requestNextEventlist"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="8" lineNum="20" pc="268437551" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="8" lineNum="21" pc="268437555" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="8" lineNum="23" pc="268437573" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="8" lineNum="25" pc="268437590" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="8" lineNum="26" pc="268437611" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="9" lineNum="31" pc="268437637" symbol="onStart"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="10" lineNum="35" pc="268437642" symbol="onStop"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="11" lineNum="39" pc="268437647" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="11" lineNum="41" pc="268437651" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="11" lineNum="44" pc="268437700" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="48" pc="268437738" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="12" lineNum="50" pc="268437742" symbol="getServiceDelegate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="53" pc="268437780" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="54" pc="268437784" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="56" pc="268437801" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="58" pc="268437820" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="60" pc="268437879" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="64" pc="268437910" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="66" pc="268438049" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="68" pc="268438074" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="69" pc="268438099" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="70" pc="268438124" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="74" pc="268438127" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="75" pc="268438152" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="76" pc="268438177" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="77" pc="268438202" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="78" pc="268438221" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="80" pc="268438249" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="81" pc="268438274" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="85" pc="268438277" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="86" pc="268438296" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="90" pc="268438330" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="93" pc="268438363" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="96" pc="268438418" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="108" pc="268438614" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="111" pc="268438633" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="114" pc="268438666" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="117" pc="268438721" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="129" pc="268438917" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="131" pc="268438936" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="132" pc="268438961" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="135" pc="268438964" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="136" pc="268438974" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="138" pc="268439000" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="140" pc="268439025" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceApp.mc" id="13" lineNum="150" pc="268439028" symbol="onBackgroundData"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="15" lineNum="10" pc="268439114" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="15" lineNum="11" pc="268439118" symbol="initialize"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="16" lineNum="15" pc="268439137" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="17" lineNum="22" pc="268439142" symbol="onShow"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="26" pc="268439147" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="27" pc="268439151" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="28" pc="268439170" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="29" pc="268439189" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="32" pc="268439208" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="33" pc="268439225" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="34" pc="268439235" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="35" pc="268439245" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="36" pc="268439256" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="38" pc="268439266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="41" pc="268439334" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="42" pc="268439370" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="55" pc="268439382" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="56" pc="268439418" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="59" pc="268439473" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="60" pc="268439517" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="61" pc="268439561" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="62" pc="268439625" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="66" pc="268439686" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="67" pc="268439707" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="69" pc="268439800" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="72" pc="268439884" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="75" pc="268439901" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="77" pc="268439920" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="79" pc="268439944" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="80" pc="268439997" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="81" pc="268440047" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="82" pc="268440097" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="85" pc="268440158" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="86" pc="268440208" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="87" pc="268440258" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="90" pc="268440319" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="91" pc="268440333" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="92" pc="268440358" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="94" pc="268440416" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="97" pc="268440442" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="102" pc="268440495" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="103" pc="268440568" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="104" pc="268440700" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="105" pc="268440838" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="107" pc="268440976" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="108" pc="268441014" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="109" pc="268441031" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="110" pc="268441048" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="111" pc="268441087" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="112" pc="268441124" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="113" pc="268441163" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="114" pc="268441180" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="115" pc="268441219" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="117" pc="268441233" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="118" pc="268441269" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="119" pc="268441297" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="120" pc="268441361" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="123" pc="268441445" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="125" pc="268441462" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="127" pc="268441482" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="128" pc="268441489" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="129" pc="268441496" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="131" pc="268441520" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="133" pc="268441553" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="135" pc="268441568" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="136" pc="268441590" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="137" pc="268441594" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="142" pc="268441614" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="144" pc="268441631" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="18" lineNum="145" pc="268441714" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="19" lineNum="154" pc="268441800" symbol="onHide"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="20" lineNum="158" pc="268441805" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="21" lineNum="162" pc="268441810" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="165" pc="268441815" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="168" pc="268441819" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="169" pc="268441851" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="170" pc="268441883" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="171" pc="268441915" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="172" pc="268441947" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="173" pc="268441979" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="174" pc="268442011" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="176" pc="268442043" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="185" pc="268442111" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="189" pc="268442130" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="190" pc="268442134" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="191" pc="268442172" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="193" pc="268442222" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="22" lineNum="196" pc="268442269" symbol="RFC3339toMoment"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="23" lineNum="200" pc="268442273" symbol="getLocation"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="23" lineNum="201" pc="268442277" symbol="getLocation"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="23" lineNum="202" pc="268442296" symbol="getLocation"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="23" lineNum="203" pc="268442315" symbol="getLocation"/>
+<entry filename="C:\\Users\\Tyler\\eclipse-workspace\\Agenda_watchface\\source\\Agenda_watchfaceView.mc" id="23" lineNum="204" pc="268442340" symbol="getLocation"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="19" method="true" symbol="onReceiveWebRequest"/>
 <entry id="8388644" module="true" symbol="System"/>
+<entry id="20" method="true" symbol="requestNextEventlist"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
@@ -221,12 +229,13 @@
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="13" symbol="GET_CALENDAR_LIST"/>
-<entry field="true" id="23" symbol="AppName"/>
+<entry field="true" id="24" symbol="AppName"/>
 <entry id="8389594" symbol="headers"/>
 <entry field="true" id="15" symbol="eventlist"/>
 <entry id="16" object="true" symbol="Agenda_watchfaceApp"/>
 <entry id="8390575" method="true" symbol="getLocation"/>
-<entry field="true" id="22" symbol="LauncherIcon"/>
+<entry field="true" id="18" symbol="calRequestIndex"/>
+<entry field="true" id="23" symbol="LauncherIcon"/>
 <entry field="true" id="12" symbol="EXPIRED_ACCESS_TOKEN"/>
 <entry id="8388786" method="true" symbol="method"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
@@ -237,7 +246,6 @@
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="8390170" method="true" symbol="onBackgroundData"/>
-<entry field="true" id="18" symbol="pendingrequests"/>
 <entry field="true" id="8388939" symbol="day"/>
 <entry id="8389338" symbol="minute"/>
 <entry field="true" id="10" symbol="NO_DEVICE_CODE"/>
@@ -245,101 +253,107 @@
 <entry id="8390148" method="true" symbol="onTemporalEvent"/>
 <entry id="8389339" symbol="second"/>
 <entry field="true" id="8388938" symbol="month"/>
-<entry id="20" module="true" symbol="Layouts"/>
+<entry id="21" module="true" symbol="Layouts"/>
 <entry id="17" object="true" symbol="Agenda_watchfaceView"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389844" symbol="responseType"/>
-<entry id="24" method="true" symbol="RFC3339toMoment"/>
-<entry id="21" module="true" symbol="Menus"/>
+<entry id="25" method="true" symbol="RFC3339toMoment"/>
+<entry id="22" module="true" symbol="Menus"/>
 <entry id="9" object="true" symbol="bgsd"/>
 <entry field="true" id="11" symbol="NO_ACCESS_TOKEN"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436723" name="request_url" stackId="8" startPc="268436645"/>
-<entry endPc="268436736" name="c" stackId="7" startPc="268436645"/>
-<entry endPc="268436736" name="calendarlist" stackId="5" startPc="268436590"/>
-<entry endPc="268436736" name="calendar_array" stackId="6" startPc="268436590"/>
-<entry endPc="268436736" name="options" stackId="4" startPc="268435489"/>
-<entry endPc="268436736" name="request_params" stackId="3" startPc="268435489"/>
-<entry endPc="268436736" name="request_url" stackId="2" startPc="268435489"/>
-<entry endPc="268436736" name="app" stackId="1" startPc="268435489"/>
-<entry endPc="268436992" name="i" stackId="5" startPc="268436902"/>
-<entry endPc="268437015" name="calendarlist" stackId="4" startPc="268436864"/>
-<entry endPc="268437235" name="i" stackId="7" startPc="268437063"/>
-<entry endPc="268437257" name="calendarlist" stackId="6" startPc="268437015"/>
-<entry endPc="268437260" name="app" stackId="3" startPc="268436752"/>
-<entry endPc="268437330" name="responseCode" stackId="1" startPc="268436737"/>
-<entry endPc="268437330" name="data" stackId="2" startPc="268436737"/>
-<entry endPc="268437415" name="app" stackId="1" startPc="268437334"/>
-<entry endPc="268437421" name="state" stackId="1" startPc="268437416"/>
-<entry endPc="268437426" name="state" stackId="1" startPc="268437421"/>
-<entry endPc="268438763" name="timeMax" stackId="6" startPc="268438076"/>
-<entry endPc="268438763" name="timeMin" stackId="5" startPc="268438076"/>
-<entry endPc="268438763" name="offsetduration" stackId="3" startPc="268438076"/>
-<entry endPc="268438763" name="datetime" stackId="4" startPc="268438076"/>
-<entry endPc="268438845" name="app" stackId="2" startPc="268437563"/>
-<entry endPc="268438846" name="data" stackId="1" startPc="268437559"/>
-<entry endPc="268438941" name="dc" stackId="1" startPc="268438936"/>
-<entry endPc="268440550" name="end_min" stackId="18" startPc="268440068"/>
-<entry endPc="268440550" name="arc_color" stackId="20" startPc="268440068"/>
-<entry endPc="268440550" name="start_min" stackId="15" startPc="268440068"/>
-<entry endPc="268440550" name="end_hr" stackId="17" startPc="268440068"/>
-<entry endPc="268440550" name="start_hr" stackId="14" startPc="268440068"/>
-<entry endPc="268440550" name="degreeEnd" stackId="19" startPc="268440068"/>
-<entry endPc="268440550" name="degreeStart" stackId="16" startPc="268440068"/>
-<entry endPc="268440566" name="i" stackId="13" startPc="268440015"/>
-<entry endPc="268441451" name="upcoming_event_moment" stackId="29" startPc="268441386"/>
-<entry endPc="268441646" name="upcoming_event_delay" stackId="28" startPc="268441348"/>
-<entry endPc="268441646" name="upcoming_event_index" stackId="27" startPc="268441348"/>
-<entry endPc="268441649" name="now" stackId="26" startPc="268441311"/>
-<entry endPc="268441649" name="hour_angle" stackId="21" startPc="268438950"/>
-<entry endPc="268441649" name="timeString" stackId="7" startPc="268438950"/>
-<entry endPc="268441649" name="app" stackId="2" startPc="268438950"/>
-<entry endPc="268441649" name="clockTime" stackId="5" startPc="268438950"/>
-<entry endPc="268441649" name="hour" stackId="6" startPc="268438950"/>
-<entry endPc="268441649" name="myStats" stackId="8" startPc="268438950"/>
-<entry endPc="268441649" name="datetime" stackId="10" startPc="268438950"/>
-<entry endPc="268441649" name="pointlist" stackId="25" startPc="268438950"/>
-<entry endPc="268441649" name="point2" stackId="24" startPc="268438950"/>
-<entry endPc="268441649" name="point1" stackId="23" startPc="268438950"/>
-<entry endPc="268441649" name="event_array" stackId="12" startPc="268438950"/>
-<entry endPc="268441649" name="date_string" stackId="11" startPc="268438950"/>
-<entry endPc="268441649" name="tip" stackId="22" startPc="268438950"/>
-<entry endPc="268441649" name="dow" stackId="9" startPc="268438950"/>
-<entry endPc="268441649" name="centery" stackId="4" startPc="268438950"/>
-<entry endPc="268441649" name="centerx" stackId="3" startPc="268438950"/>
-<entry endPc="268441650" name="dc" stackId="1" startPc="268438946"/>
-<entry endPc="268442122" name="localtime" stackId="10" startPc="268441669"/>
-<entry endPc="268442122" name="second" stackId="7" startPc="268441669"/>
-<entry endPc="268442122" name="minute" stackId="6" startPc="268441669"/>
-<entry endPc="268442122" name="utc_time" stackId="11" startPc="268441669"/>
-<entry endPc="268442122" name="hour" stackId="5" startPc="268441669"/>
-<entry endPc="268442122" name="month" stackId="3" startPc="268441669"/>
-<entry endPc="268442122" name="year" stackId="2" startPc="268441669"/>
-<entry endPc="268442122" name="day" stackId="4" startPc="268441669"/>
-<entry endPc="268442122" name="timezone_offset" stackId="8" startPc="268441669"/>
-<entry endPc="268442122" name="options" stackId="9" startPc="268441669"/>
-<entry endPc="268442123" name="RFC3339_string" stackId="1" startPc="268441665"/>
-<entry endPc="268442215" name="app" stackId="2" startPc="268442127"/>
-<entry endPc="268442215" name="myLocation" stackId="3" startPc="268442127"/>
-<entry endPc="268442216" name="info" stackId="1" startPc="268442123"/>
+<entry endPc="268436588" name="calendarlist" stackId="5" startPc="268436309"/>
+<entry endPc="268436588" name="calendar_array" stackId="6" startPc="268436309"/>
+<entry endPc="268436628" name="options" stackId="4" startPc="268435489"/>
+<entry endPc="268436628" name="request_params" stackId="3" startPc="268435489"/>
+<entry endPc="268436628" name="request_url" stackId="2" startPc="268435489"/>
+<entry endPc="268436628" name="app" stackId="1" startPc="268435489"/>
+<entry endPc="268436884" name="i" stackId="5" startPc="268436794"/>
+<entry endPc="268436907" name="calendarlist" stackId="4" startPc="268436756"/>
+<entry endPc="268437140" name="i" stackId="8" startPc="268436968"/>
+<entry endPc="268437237" name="calendarlist" stackId="6" startPc="268436907"/>
+<entry endPc="268437237" name="calendar_array" stackId="7" startPc="268436907"/>
+<entry endPc="268437240" name="app" stackId="3" startPc="268436644"/>
+<entry endPc="268437264" name="responseCode" stackId="1" startPc="268436629"/>
+<entry endPc="268437264" name="data" stackId="2" startPc="268436629"/>
+<entry endPc="268437550" name="options" stackId="5" startPc="268437268"/>
+<entry endPc="268437550" name="request_params" stackId="4" startPc="268437268"/>
+<entry endPc="268437550" name="request_url" stackId="3" startPc="268437268"/>
+<entry endPc="268437550" name="app" stackId="2" startPc="268437268"/>
+<entry endPc="268437551" name="calendarid" stackId="1" startPc="268437264"/>
+<entry endPc="268437636" name="app" stackId="1" startPc="268437555"/>
+<entry endPc="268437642" name="state" stackId="1" startPc="268437637"/>
+<entry endPc="268437647" name="state" stackId="1" startPc="268437642"/>
+<entry endPc="268438964" name="timeMax" stackId="6" startPc="268438277"/>
+<entry endPc="268438964" name="timeMin" stackId="5" startPc="268438277"/>
+<entry endPc="268438964" name="offsetduration" stackId="3" startPc="268438277"/>
+<entry endPc="268438964" name="datetime" stackId="4" startPc="268438277"/>
+<entry endPc="268439046" name="app" stackId="2" startPc="268437784"/>
+<entry endPc="268439047" name="data" stackId="1" startPc="268437780"/>
+<entry endPc="268439142" name="dc" stackId="1" startPc="268439137"/>
+<entry endPc="268440479" name="end_min" stackId="17" startPc="268439997"/>
+<entry endPc="268440479" name="arc_color" stackId="19" startPc="268439997"/>
+<entry endPc="268440479" name="start_min" stackId="14" startPc="268439997"/>
+<entry endPc="268440479" name="end_hr" stackId="16" startPc="268439997"/>
+<entry endPc="268440479" name="start_hr" stackId="13" startPc="268439997"/>
+<entry endPc="268440479" name="degreeEnd" stackId="18" startPc="268439997"/>
+<entry endPc="268440479" name="degreeStart" stackId="15" startPc="268439997"/>
+<entry endPc="268440495" name="i" stackId="12" startPc="268439944"/>
+<entry endPc="268441601" name="upcoming_event_moment" stackId="30" startPc="268441520"/>
+<entry endPc="268441601" name="event_delay" stackId="31" startPc="268441520"/>
+<entry endPc="268441614" name="i" stackId="29" startPc="268441520"/>
+<entry endPc="268441796" name="upcoming_event_delay" stackId="28" startPc="268441482"/>
+<entry endPc="268441796" name="upcoming_event_index" stackId="27" startPc="268441482"/>
+<entry endPc="268441799" name="now" stackId="26" startPc="268441445"/>
+<entry endPc="268441799" name="hour_angle" stackId="20" startPc="268439151"/>
+<entry endPc="268441799" name="timeString" stackId="7" startPc="268439151"/>
+<entry endPc="268441799" name="app" stackId="2" startPc="268439151"/>
+<entry endPc="268441799" name="clockTime" stackId="5" startPc="268439151"/>
+<entry endPc="268441799" name="hour" stackId="6" startPc="268439151"/>
+<entry endPc="268441799" name="myStats" stackId="25" startPc="268439151"/>
+<entry endPc="268441799" name="datetime" stackId="9" startPc="268439151"/>
+<entry endPc="268441799" name="pointlist" stackId="24" startPc="268439151"/>
+<entry endPc="268441799" name="point2" stackId="23" startPc="268439151"/>
+<entry endPc="268441799" name="point1" stackId="22" startPc="268439151"/>
+<entry endPc="268441799" name="event_array" stackId="11" startPc="268439151"/>
+<entry endPc="268441799" name="date_string" stackId="10" startPc="268439151"/>
+<entry endPc="268441799" name="tip" stackId="21" startPc="268439151"/>
+<entry endPc="268441799" name="dow" stackId="8" startPc="268439151"/>
+<entry endPc="268441799" name="centery" stackId="4" startPc="268439151"/>
+<entry endPc="268441799" name="centerx" stackId="3" startPc="268439151"/>
+<entry endPc="268441800" name="dc" stackId="1" startPc="268439147"/>
+<entry endPc="268442272" name="localtime" stackId="10" startPc="268441819"/>
+<entry endPc="268442272" name="second" stackId="7" startPc="268441819"/>
+<entry endPc="268442272" name="minute" stackId="6" startPc="268441819"/>
+<entry endPc="268442272" name="utc_time" stackId="11" startPc="268441819"/>
+<entry endPc="268442272" name="hour" stackId="5" startPc="268441819"/>
+<entry endPc="268442272" name="month" stackId="3" startPc="268441819"/>
+<entry endPc="268442272" name="year" stackId="2" startPc="268441819"/>
+<entry endPc="268442272" name="day" stackId="4" startPc="268441819"/>
+<entry endPc="268442272" name="timezone_offset" stackId="8" startPc="268441819"/>
+<entry endPc="268442272" name="options" stackId="9" startPc="268441819"/>
+<entry endPc="268442273" name="RFC3339_string" stackId="1" startPc="268441815"/>
+<entry endPc="268442365" name="app" stackId="2" startPc="268442277"/>
+<entry endPc="268442365" name="myLocation" stackId="3" startPc="268442277"/>
+<entry endPc="268442366" name="info" stackId="1" startPc="268442273"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry offset="230" parentId="globals" symbolId="Agenda_watchfaceApp" type="class"/>
 <dataEntry offset="317" parentId="globals" symbolId="bgsd" type="class"/>
-<dataEntry offset="1463" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="1542" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="1581" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="1612" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="1643" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="1674" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="1705" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1744" parentId="globals" symbolId="Agenda_watchfaceView" type="class"/>
+<dataEntry offset="1495" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="1574" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="1613" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1644" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1675" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1706" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1737" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1776" parentId="globals" symbolId="Agenda_watchfaceView" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="bgsd">
@@ -351,6 +365,10 @@
 <functionEntry accessMode="public" name="onReceiveWebRequest" parent="bgsd">
 <param id="responseCode"/>
 <param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="requestNextEventlist" parent="bgsd">
+<param id="calendarid"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="Agenda_watchfaceApp">

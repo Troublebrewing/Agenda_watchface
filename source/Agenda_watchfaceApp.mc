@@ -52,7 +52,7 @@ class Agenda_watchfaceApp extends Application.AppBase {
     
     function onBackgroundData(data) {    	
     	var app = Application.getApp();
-    	System.println(data);
+    	//System.println(data);
     	if(data.hasKey("error")){
     		//bad response
     		if((app.getProperty("bg_phase") == GET_CALENDAR_LIST) || (app.getProperty("bg_phase") == GET_EVENTS)){
