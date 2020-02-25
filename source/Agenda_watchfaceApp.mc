@@ -12,7 +12,7 @@ enum
 	//GET_TEMP
 }
 
-var eventlist = {};
+//var eventlist = {};
 
 (:background)
 class Agenda_watchfaceApp extends Application.AppBase {
@@ -55,6 +55,7 @@ class Agenda_watchfaceApp extends Application.AppBase {
     	//System.println(data);
     	if(data.hasKey("error")){
     		//bad response
+    		System.println("bad response:"+data);
     		if((app.getProperty("bg_phase") == GET_CALENDAR_LIST) || (app.getProperty("bg_phase") == GET_EVENTS)){
     			//token expired, set bg phase to renew next cycle
     			app.setProperty("bg_phase", EXPIRED_ACCESS_TOKEN);
@@ -71,6 +72,7 @@ class Agenda_watchfaceApp extends Application.AppBase {
     			}
     			case NO_ACCESS_TOKEN:
     			case EXPIRED_ACCESS_TOKEN: {
+    				System.println("Token expired. Renewing...");
     				app.setProperty("access_token",data["access_token"]);
     				app.setProperty("expires_in",data["expires_in"]);
     				app.setProperty("token_type",data["token_type"]);
@@ -83,7 +85,7 @@ class Agenda_watchfaceApp extends Application.AppBase {
     			case GET_CALENDAR_LIST: {
 	    			//parse in background process, write directly to object store    	
 			 		app.setProperty("calendarlist",data);
-			 		System.println(app.getProperty("calendarlist"));
+			 		System.println("Calendar List Retrieved:"+app.getProperty("calendarlist"));
 			 		
 			 		//prep times for event query
 			 		//get seconds in 2 hours
@@ -132,8 +134,9 @@ class Agenda_watchfaceApp extends Application.AppBase {
 	    			break;
 	    		}
 	    		case GET_EVENTS: {
-	    			eventlist = data;
-	    			System.println(eventlist);
+	    			//eventlist = data;
+	    			app.setProperty("eventlist",data);
+	    			System.println("Event list retrieved:"+app.getProperty("eventlist"));
 	    			//app.setProperty("bg_phase",GET_TEMP);
 	    			app.setProperty("bg_phase",GET_CALENDAR_LIST);
 	    			

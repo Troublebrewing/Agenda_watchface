@@ -27,6 +27,11 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         var app = Application.getApp();
         var centerx = dc.getWidth()/2;
         var centery = dc.getHeight()/2;
+        var eventlist = {};
+        
+        if(app.getProperty("eventlist") != null){
+        	eventlist = app.getProperty("eventlist");
+        }
     	
     	//draw time
     	var clockTime = System.getClockTime();
@@ -58,15 +63,15 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         //draw date        
         var dow = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var datetime = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-        var date_string = dow.day_of_week.toUpper() + "." + datetime.month + "." + datetime.day + "." + datetime.year;
+        var date_string = dow.day_of_week.toUpper() + "." + datetime.month + "." + datetime.day + "." + datetime.year.toString().substring(2,4);
         dc.drawText(centerx, centery-40, Graphics.FONT_MEDIUM, date_string, Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
         
         //draw temperature        
         //Position.enableLocationEvents(Position.LOCATION_ONE_SHOT, method(:getLocation));
-        if(app.getProperty("current_temperature") != null){
-        	dc.drawText(centerx, centery-80, Graphics.FONT_MEDIUM, app.getProperty("current_temperature").toNumber()+"°", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
-        }
-        dc.drawText(centerx, centery-80, Graphics.FONT_MEDIUM, app.getProperty("bg_phase").toNumber(), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);        
+        //if(app.getProperty("current_temperature") != null){
+        	//dc.drawText(centerx, centery-80, Graphics.FONT_MEDIUM, app.getProperty("current_temperature").toNumber()+"°", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+        //}
+        //dc.drawText(centerx, centery-80, Graphics.FONT_MEDIUM, app.getProperty("bg_phase").toNumber(), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);        
                
         //draw arc for each event
         dc.setPenWidth(10);
@@ -115,37 +120,50 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         dc.fillPolygon(pointlist);
         
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        if(app.getProperty("bg_phase") == NO_ACCESS_TOKEN){
-        	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, "visit:google.com/device", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
-	    	dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"CODE:"+ app.getProperty("user_code"), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
-	    }else{
-	        //list upcoming event
-	        var now = Time.now();
-	        //System.println("NOW (UNIX):"+now.value());
-	        if(event_array.size() != 0){
-		        //init index variable outside loop so we know where it stopped
-		        var upcoming_event_index = 0;
-		        var upcoming_event_delay = 36000;
-		        for(var i = 0; i < event_array.size(); i++){
-		        	//convert RFC3339 timestamp to UNIX UTC
-		        	var upcoming_event_moment = RFC3339toMoment(eventlist[event_array[i]]["start"]);
-		        	
-		        	var event_delay = upcoming_event_moment.compare(now);
-		        	
-		        	if((event_delay > 0) && (event_delay < upcoming_event_delay)){
-		        		upcoming_event_index = i;
-		        		upcoming_event_delay = event_delay;
-		        	}
+        switch(app.getProperty("bg_phase")){
+        	case NO_DEVICE_CODE:{
+        		dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, "initializing...", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+	    		break;
+        	}
+        	case NO_ACCESS_TOKEN:{
+        		dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, "visit:google.com/device", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+	    		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"CODE:"+ app.getProperty("user_code"), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+	    		break;
+    		}
+    		default:{
+    			//list upcoming event
+		        var now = Time.now();
+		        //System.println("NOW (UNIX):"+now.value());
+		        if(event_array.size() != 0){
+			        //init index variable outside loop so we know where it stopped
+			        var upcoming_event_index = 0;
+			        var upcoming_event_delay = 36000;
+			        for(var i = 0; i < event_array.size(); i++){
+			        	//convert RFC3339 timestamp to UNIX UTC
+			        	var upcoming_event_moment = RFC3339toMoment(eventlist[event_array[i]]["start"]);
+			        	
+			        	var event_delay = upcoming_event_moment.compare(now);
+			        	
+			        	if((event_delay > 0) && (event_delay < upcoming_event_delay)){
+			        		upcoming_event_index = i;
+			        		upcoming_event_delay = event_delay;
+			        	}
+			        }
+			        
+			        //check if loop exited early
+			        if((upcoming_event_index < event_array.size()) && (upcoming_event_delay < 36000)){        
+			        	//draw text
+			        	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, event_array[upcoming_event_index].substring(0,12), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+			        	if(upcoming_event_delay < 7200){
+			        		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in "+ (upcoming_event_delay/60) +" min", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+			        	}else{
+			        		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in "+ (upcoming_event_delay/3600) +" hrs", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+			        	}
+			        }
 		        }
-		        
-		        //check if loop exited early
-		        if(upcoming_event_index < event_array.size()){        
-		        	//draw text
-		        	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, event_array[upcoming_event_index].substring(0,12), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
-		        	dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in "+ (upcoming_event_delay/60) +" min", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
-		        }
-	        }    
-	    }
+    			break;
+    		}
+        }
     }
 
     // Called when this View is removed from the screen. Save the
