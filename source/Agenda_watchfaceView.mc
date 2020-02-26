@@ -153,7 +153,8 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
 			        //check if loop exited early
 			        if((upcoming_event_index < event_array.size()) && (upcoming_event_delay < 36000)){        
 			        	//draw text
-			        	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, event_array[upcoming_event_index].substring(0,12), Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+			        	var event_title_trimmed = Graphics.fitTextToArea(event_array[upcoming_event_index], Graphics.FONT_XTINY, 162, 40, true);
+			        	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, event_title_trimmed, Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
 			        	if(upcoming_event_delay < 7200){
 			        		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in "+ (upcoming_event_delay/60) +" min", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
 			        	}else{

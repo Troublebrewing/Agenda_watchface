@@ -153,7 +153,16 @@ class bgsd extends Toybox.System.ServiceDelegate {
 						}
 					}
 					if(data.hasKey("nextPageToken")){
-						requestNextPage(data["nextPageToken"]);
+						var request_url = "https://www.googleapis.com/calendar/v3/users/me/calendarList";
+						var request_params = {
+					    	"maxResults" => maxResults,
+					    	"pageToken" => data["nextPageToken"],
+					    	"access_token" => ""
+					    };					    
+						request_params["access_token"] = app.getProperty("access_token");
+	    				
+	    				//send url and params for next request
+					    requestNextPage(request_url,request_params);
 					}else{
 						Background.exit(calendarlist);
 					}
@@ -185,15 +194,43 @@ class bgsd extends Toybox.System.ServiceDelegate {
 					
 					//continue to get pages of events until no more pages available
 					if(data.hasKey("nextPageToken")){
-						//calrequestindex has not been incremented until last page received
-						requestEventlist(calendar_array[calRequestIndex],data["nextPageToken"]);
+						//set request url to current calendar index
+						var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[calRequestIndex]+"/events";
+    					
+    					//parameters are identical to original request, plus the pagetoken
+				    	var request_params = {
+				    		"maxResults" => maxResults,
+				    		"access_token" => "",
+				    		"timeMin" => "",
+				    		"timeMax" => "",
+				    		"pageToken" => data["nextPageToken"]
+				    	};   	
+				    	request_params["access_token"] = app.getProperty("access_token");
+						request_params["timeMin"] = app.getProperty("timeMin");
+						request_params["timeMax"] = app.getProperty("timeMax");							
+						
+						//send url and params for next request
+						requestNextPage(request_url,request_params);
 					}else{
-						//increment index
+						//increment calendar index
 						calRequestIndex++;
 						
-						//if we've reached the end of the calendar list, exit bg process, otherwise keep requesting
+						//if we've reached the end of the calendar list, exit bg process, initiate new request
 			    		if(calRequestIndex < calendar_array.size()){
-			    			requestEventlist(calendar_array[calRequestIndex],null);
+			    			var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[calRequestIndex]+"/events";
+    	
+					    	var request_params = {
+					    		"maxResults" => maxResults,
+					    		"access_token" => "",
+					    		"timeMin" => "",
+					    		"timeMax" => ""					    		
+					    	};   	
+					    	request_params["access_token"] = app.getProperty("access_token");
+							request_params["timeMin"] = app.getProperty("timeMin");
+							request_params["timeMax"] = app.getProperty("timeMax");	
+						
+			    			//send url and params for next request
+			    			requestNextPage(request_url,request_params);
 			    		}else{
 			    			Background.exit(eventlist);
 			    		}
@@ -222,47 +259,8 @@ class bgsd extends Toybox.System.ServiceDelegate {
     	}    	
     }
     
-    function requestNextPage(pageToken){
-    	var app = Application.getApp();
-    	var request_url = "https://www.googleapis.com/calendar/v3/users/me/calendarList";
-		var request_params = {
-	    	"maxResults" => maxResults,
-	    	"pageToken" => pageToken,
-	    	"access_token" => ""
-	    };
-	    request_params["access_token"] = app.getProperty("access_token");
-	    
-	    var options = {
-	    	:method => Communications.HTTP_REQUEST_METHOD_GET,
-	    	:headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED},
-	    	:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON,
-	    };
-	    
-	    //make web request
-	    Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));
-    }
-    
-    function requestEventlist(calendarid,pageToken){
-    	var app = Application.getApp();
-    	
-    	var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendarid+"/events";
-    	
-    	var request_params = {
-    		"maxResults" => maxResults,
-    		"access_token" => "",
-    		"timeMin" => "",
-    		"timeMax" => ""
-    	};   	
-    	request_params["access_token"] = app.getProperty("access_token");
-		request_params["timeMin"] = app.getProperty("timeMin");
-		request_params["timeMax"] = app.getProperty("timeMax");			
-		
-		//if specific page is specified, add this to parameters
-		if(pageToken != null){
-			request_params.put("pageToken", pageToken);
-		}
-						
-		//request options
+    function requestNextPage(request_url,request_params){    	
+	    //request options
 		var options = {
 	    	:method => Communications.HTTP_REQUEST_METHOD_GET,
 	    	:headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_URL_ENCODED},
@@ -270,6 +268,6 @@ class bgsd extends Toybox.System.ServiceDelegate {
 	    };
 	    
 	    //make web request
-	    Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));	
+	    Communications.makeWebRequest(request_url, request_params, options, method(:onReceiveWebRequest));
     }
 }
