@@ -248,6 +248,7 @@ class bgsd extends Toybox.System.ServiceDelegate {
     	var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendarid+"/events";
     	
     	var request_params = {
+    		"maxResults" => maxResults,
     		"access_token" => "",
     		"timeMin" => "",
     		"timeMax" => ""
@@ -258,7 +259,6 @@ class bgsd extends Toybox.System.ServiceDelegate {
 		
 		//if specific page is specified, add this to parameters
 		if(pageToken != null){
-			System.println(pageToken);
 			request_params.put("pageToken", pageToken);
 		}
 						
