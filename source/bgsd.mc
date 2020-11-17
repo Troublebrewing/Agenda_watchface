@@ -100,7 +100,8 @@ class bgsd extends Toybox.System.ServiceDelegate {
 		    		"access_token" => "",
 		    		"timeMin" => "",
 		    		"timeMax" => "",
-		    		"fields" => "summary,items(summary,start/dateTime,end/dateTime)"
+		    		"fields" => "summary,items(summary,start/dateTime,end/dateTime)",
+		    		"timeZone" => "UTC"
 		    	};   	
 		    	request_params["access_token"] = app.getProperty("access_token");
 				request_params["timeMin"] = app.getProperty("timeMin");
@@ -227,7 +228,8 @@ class bgsd extends Toybox.System.ServiceDelegate {
 					    		"access_token" => "",
 					    		"timeMin" => "",
 					    		"timeMax" => "",
-		    					"fields" => "summary,items(summary,start/dateTime,end/dateTime)"					    		
+		    					"fields" => "summary,items(summary,start/dateTime,end/dateTime)",
+		    					"timeZone" => "UTC"					    		
 					    	};   	
 					    	request_params["access_token"] = app.getProperty("access_token");
 							request_params["timeMin"] = app.getProperty("timeMin");
@@ -254,12 +256,17 @@ class bgsd extends Toybox.System.ServiceDelegate {
     				//set received data directly back to main process
 		    		//this is size limited
 		    		Background.exit(data);
+		    		break;
     			}
     		}
     		  	
     	}else{
     		//Log info
     		System.println("Error ResponseCode:"+responseCode+" DATA:"+data);
+    		/*var error_data = {
+    			"error" => "unauthorized",
+    			"ResponseCode" => "401"
+    		};*/
     		Background.exit(data);
     	}    	
     }

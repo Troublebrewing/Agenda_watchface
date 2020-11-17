@@ -82,13 +82,15 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         for(var i = 0; i < event_array.size(); i++){
         	//translate start time to degrees
         	if((eventlist[event_array[i]]["start"] != null) && (eventlist[event_array[i]]["end"] != null)){
-	        	var start_hr = eventlist[event_array[i]]["start"].substring(11,13).toNumber();
-	        	var start_min = eventlist[event_array[i]]["start"].substring(14,16).toNumber();
+	        	var localtime = RFC3339toLocalInfo(eventlist[event_array[i]]["start"]);
+	        	var start_hr = localtime.hour;
+	        	var start_min = localtime.min;
 	        	var degreeStart = ((810-(30*(start_hr%12)))-((start_min.toFloat()/60.0)*30.0).toNumber())%360;
         	        	
         		//translate end time to degrees
-	        	var end_hr = eventlist[event_array[i]]["end"].substring(11,13).toNumber();
-	        	var end_min = eventlist[event_array[i]]["end"].substring(14,16).toNumber(); //0-60 min ~ 30 degree
+	        	localtime = RFC3339toLocalInfo(eventlist[event_array[i]]["end"]);
+	        	var end_hr = localtime.hour;
+	        	var end_min = localtime.min; //0-60 min ~ 30 degree
 	        	var degreeEnd = ((810-(30*(end_hr%12)))-((end_min.toFloat()/60.0)*30.0).toNumber())%360;
 	        	
 	        	//set color to match calendar source
@@ -105,7 +107,7 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         
         //draw pointer to current time
 		var hour_angle = ((810-(30*(clockTime.hour%12)))-((clockTime.min.toFloat()/60.0)*30.0).toNumber())%360;
-        var tip = [(110.0*Math.cos(Math.toRadians(hour_angle.toFloat())))+centerx,centery-(110.0*Math.sin(Math.toRadians(hour_angle.toFloat())))];
+        var tip = [(115.0*Math.cos(Math.toRadians(hour_angle.toFloat())))+centerx,centery-(115.0*Math.sin(Math.toRadians(hour_angle.toFloat())))];
         var point1 = [tip[0]-(14*Math.cos(Math.toRadians(hour_angle+45))),tip[1]+(14*Math.sin(Math.toRadians(hour_angle+45)))];
         var point2 = [tip[0]-(14*Math.cos(Math.toRadians(hour_angle-45))),tip[1]+(14*Math.sin(Math.toRadians(hour_angle-45)))];
         
@@ -192,6 +194,10 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     	var second = RFC3339_string.substring(17,19).toNumber();
     	var timezone_offset = RFC3339_string.substring(20,22).toNumber();
     	
+    	if(timezone_offset == null){
+    		timezone_offset = 0;
+    	}
+    	
     	var options = {
     		:year => year,
     		:month => month,
@@ -201,18 +207,39 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     		:second => second
     	};
     	
-    	var localtime = Gregorian.moment(options);
+    	var utcmoment = Gregorian.moment(options);    	
     	
-    	//System.println("timezone:"+timezone_offset);
+    	return(utcmoment);
+    }
+    
+    function RFC3339toLocalInfo(RFC3339_string){
+    	//System.println(RFC3339_string);
     	
-    	var utc_time = localtime;    	
-    	if(RFC3339_string.substring(19,20).equals("-")){
-    		utc_time = localtime.add(new Time.Duration(timezone_offset*3600));
-    	}else{
-    		utc_time = localtime.subtract(new Time.Duration(timezone_offset*3600));
+    	var year = RFC3339_string.substring(0,4).toNumber();
+    	var month = RFC3339_string.substring(5,7).toNumber();
+    	var day = RFC3339_string.substring(8,10).toNumber();
+    	var hour = RFC3339_string.substring(11,13).toNumber();
+    	var minute = RFC3339_string.substring(14,16).toNumber();
+    	var second = RFC3339_string.substring(17,19).toNumber();
+    	var timezone_offset = RFC3339_string.substring(20,22).toNumber();
+    	
+    	if(timezone_offset == null){
+    		timezone_offset = 0;
     	}
     	
-    	return(utc_time);
+    	var options = {
+    		:year => year,
+    		:month => month,
+    		:day => day,
+    		:hour => hour,
+    		:minute => minute,
+    		:second => second
+    	};
+    	
+    	var utcmoment = Gregorian.moment(options);
+    	var localtimeinfo = Gregorian.info(utcmoment,Time.FORMAT_LONG);
+    	
+    	return(localtimeinfo);
     }
     
     	
