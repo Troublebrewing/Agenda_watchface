@@ -72,7 +72,8 @@ class bgsd extends Toybox.System.ServiceDelegate {
     		case GET_CALENDAR_LIST: {
     			request_url = "https://www.googleapis.com/calendar/v3/users/me/calendarList";
     			request_params = {
-			    	"maxResults" => maxResults,
+			    	//"maxResults" => maxResults,
+			    	"fields" => "items(id,selected,backgroundColor)",
 			    	"access_token" => ""
 			    };
 			    request_params["access_token"] = app.getProperty("access_token");
@@ -95,10 +96,11 @@ class bgsd extends Toybox.System.ServiceDelegate {
 		    	request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[calRequestIndex]+"/events";
 		    	
 		    	request_params = {
-		    		"maxResults" => maxResults,
+		    		//"maxResults" => maxResults,
 		    		"access_token" => "",
 		    		"timeMin" => "",
-		    		"timeMax" => ""
+		    		"timeMax" => "",
+		    		"fields" => "summary,items(summary,start/dateTime,end/dateTime)"
 		    	};   	
 		    	request_params["access_token"] = app.getProperty("access_token");
 				request_params["timeMin"] = app.getProperty("timeMin");
@@ -152,7 +154,7 @@ class bgsd extends Toybox.System.ServiceDelegate {
 							calendarlist.put(data["items"][i]["id"],data["items"][i]["backgroundColor"]);
 						}
 					}
-					if(data.hasKey("nextPageToken")){
+					/*if(data.hasKey("nextPageToken")){
 						var request_url = "https://www.googleapis.com/calendar/v3/users/me/calendarList";
 						var request_params = {
 					    	"maxResults" => maxResults,
@@ -165,8 +167,9 @@ class bgsd extends Toybox.System.ServiceDelegate {
 					    requestNextPage(request_url,request_params);
 					}else{
 						Background.exit(calendarlist);
-					}
-					
+					}*/
+					Background.exit(calendarlist);
+					//Background.exit(data);
     				break;
     			}
     			case GET_EVENTS: {
@@ -193,7 +196,7 @@ class bgsd extends Toybox.System.ServiceDelegate {
 					
 					
 					//continue to get pages of events until no more pages available
-					if(data.hasKey("nextPageToken")){
+					/*if(data.hasKey("nextPageToken")){
 						//set request url to current calendar index
 						var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[calRequestIndex]+"/events";
     					
@@ -211,7 +214,7 @@ class bgsd extends Toybox.System.ServiceDelegate {
 						
 						//send url and params for next request
 						requestNextPage(request_url,request_params);
-					}else{
+					}else{*/
 						//increment calendar index
 						calRequestIndex++;
 						
@@ -220,10 +223,11 @@ class bgsd extends Toybox.System.ServiceDelegate {
 			    			var request_url = "https://www.googleapis.com/calendar/v3/calendars/"+calendar_array[calRequestIndex]+"/events";
     	
 					    	var request_params = {
-					    		"maxResults" => maxResults,
+					    		//"maxResults" => maxResults,
 					    		"access_token" => "",
 					    		"timeMin" => "",
-					    		"timeMax" => ""					    		
+					    		"timeMax" => "",
+		    					"fields" => "summary,items(summary,start/dateTime,end/dateTime)"					    		
 					    	};   	
 					    	request_params["access_token"] = app.getProperty("access_token");
 							request_params["timeMin"] = app.getProperty("timeMin");
@@ -234,7 +238,8 @@ class bgsd extends Toybox.System.ServiceDelegate {
 			    		}else{
 			    			Background.exit(eventlist);
 			    		}
-					}
+			    		//Background.exit(eventlist);
+					//}
 					
 					
     				break;
