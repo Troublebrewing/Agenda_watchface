@@ -82,6 +82,9 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
         for(var i = 0; i < event_array.size(); i++){
         	//translate start time to degrees
         	if((eventlist[event_array[i]]["start"] != null) && (eventlist[event_array[i]]["end"] != null)){
+	        	//var clocktime = System.getClockTime();
+	        	//System.println("DST:"+clocktime.dst);
+	        	//System.println("UTC offset:"+(clocktime.timeZoneOffset/3600));
 	        	var localtime = RFC3339toLocalInfo(eventlist[event_array[i]]["start"]);
 	        	var start_hr = localtime.hour;
 	        	var start_min = localtime.min;
@@ -237,7 +240,31 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     	};
     	
     	var utcmoment = Gregorian.moment(options);
+    	
+    	//determine if that date is during DST
+    	options[:year] = 2020;
+    	options[:month] = 3;
+    	options[:day] = 8;
+    	options[:hour] = 02;
+    	options[:minute] = 00;
+    	options[:second] = 00;
+    	var dst_start = Gregorian.moment(options);
+    	
+    	options[:year] = 2020;
+    	options[:month] = 11;
+    	options[:day] = 1;
+    	options[:hour] = 02;
+    	options[:minute] = 00;
+    	options[:second] = 00;
+    	var dst_end = Gregorian.moment(options);
+    	
+    	var dst_offset = 0;
+    	if(utcmoment.greaterThan(dst_start) && utcmoment.lessThan(dst_end)){
+    		dst_offset = 1;
+    	}
+    	
     	var localtimeinfo = Gregorian.info(utcmoment,Time.FORMAT_LONG);
+    	localtimeinfo.hour = localtimeinfo.hour + dst_offset;
     	
     	return(localtimeinfo);
     }
