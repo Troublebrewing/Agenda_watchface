@@ -160,10 +160,10 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
 			        	//draw text
 			        	var event_title_trimmed = Graphics.fitTextToArea(event_array[upcoming_event_index], Graphics.FONT_XTINY, 162, 40, true);
 			        	dc.drawText(centerx, centery+50, Graphics.FONT_XTINY, event_title_trimmed, Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
-			        	if(upcoming_event_delay < 7200){
+			        	if(upcoming_event_delay < 6000){
 			        		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in "+ (upcoming_event_delay/60) +" min", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
 			        	}else{
-			        		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in "+ (upcoming_event_delay/3600) +" hrs", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
+			        		dc.drawText(centerx, centery+70, Graphics.FONT_XTINY,"in <"+ ((upcoming_event_delay/3600)+1) +" hrs", Graphics.TEXT_JUSTIFY_CENTER + Graphics.TEXT_JUSTIFY_VCENTER);
 			        	}
 			        }
 		        }
@@ -201,7 +201,7 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     		timezone_offset = 0;
     	}
     	
-    	var options = {
+    	var originalTD = {
     		:year => year,
     		:month => month,
     		:day => day,
@@ -209,10 +209,32 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     		:minute => minute,
     		:second => second
     	};
+    	var originalMoment = Gregorian.moment(originalTD); 
+    	    	
+    	//recurring events will have date from the time it was created rather than now.
+    	//since API req returned the event, it occurs in -2 to +10hr from current time. 
+    	//overwrite the date with todays date. 
+    	//todo: this doesnt cover cases near midnight where the event does not occur in this current day. not sure what will happen in this case
+    	var timenow = Gregorian.info(Time.now(),Time.FORMAT_SHORT);
+    	var correctedTD = {
+    		:year => timenow.year,
+    		:month => timenow.month,
+    		:day => timenow.day,
+    		:hour => hour,
+    		:minute => minute,
+    		:second => second
+    	};    	
     	
-    	var utcmoment = Gregorian.moment(options);    	
+    	//corrected moment in utc    	
+    	var correctedMoment = Gregorian.moment(correctedTD); 
     	
-    	return(utcmoment);
+    	  
+    	if(isDuringDST(originalMoment)){
+    		var offset = new Time.Duration(3600);
+    		correctedMoment = correctedMoment.add(offset);
+    	} 	
+    	
+    	return(correctedMoment);
     }
     
     function RFC3339toLocalInfo(RFC3339_string){
@@ -242,7 +264,7 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     	var utcmoment = Gregorian.moment(options);
     	
     	//determine if that date is during DST
-    	options[:year] = 2020;
+    	/*options[:year] = 2020;
     	options[:month] = 3;
     	options[:day] = 8;
     	options[:hour] = 02;
@@ -261,10 +283,12 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
     	var dst_offset = 0;
     	if(utcmoment.greaterThan(dst_start) && utcmoment.lessThan(dst_end)){
     		dst_offset = 1;
-    	}
+    	}*/
     	
     	var localtimeinfo = Gregorian.info(utcmoment,Time.FORMAT_LONG);
-    	localtimeinfo.hour = localtimeinfo.hour + dst_offset;
+    	if(isDuringDST(utcmoment)){
+    		localtimeinfo.hour = localtimeinfo.hour + 1;
+    	}    	
     	
     	return(localtimeinfo);
     }
@@ -276,4 +300,39 @@ class Agenda_watchfaceView extends WatchUi.WatchFace {
 	    app.setProperty("latitude",myLocation[0]);
 	    app.setProperty("longitude",myLocation[1]);	    
 	}
+	
+	function isDuringDST(t){
+		var options = {
+    		:year => 2020,
+    		:month => 3,
+    		:day => 8,
+    		:hour => 02,
+    		:minute => 00,
+    		:second => 00
+    	};
+    	
+		//determine if that date is during DST
+    	options[:year] = 2020;
+    	options[:month] = 3;
+    	options[:day] = 8;
+    	options[:hour] = 02;
+    	options[:minute] = 00;
+    	options[:second] = 00;
+    	var dst_start = Gregorian.moment(options);
+    	
+    	options[:year] = 2020;
+    	options[:month] = 11;
+    	options[:day] = 1;
+    	options[:hour] = 02;
+    	options[:minute] = 00;
+    	options[:second] = 00;
+    	var dst_end = Gregorian.moment(options);
+    	
+    	if(t.greaterThan(dst_start) && t.lessThan(dst_end)){
+    		return true;
+    	}else{
+    		return false;
+    	}
+	}
+	
 }
